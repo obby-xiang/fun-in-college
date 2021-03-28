@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course>
+        <id>28030140</id>
+        <name>操作系统</name>
+        <teacher>张亚涛</teacher>
+    </course>
+    <course>
+        <id>28030150</id>
+        <name>计算机网络</name>
+        <teacher>刘猛</teacher>
+    </course>
+    <course>
+        <id>29110090</id>
+        <name>形势政策与社会实践</name>
+        <teacher>王瑞</teacher>
+    </course>
+    <course>
+        <id>28030160</id>
+        <name>算法设计与分析</name>
+        <teacher>徐东亮</teacher>
+    </course>
+    <course>
+        <id>28032120</id>
+        <name>数字图像处理</name>
+        <teacher>金长龙</teacher>
+    </course>
+    <course>
+        <id>28030480</id>
+        <name>深度学习概论</name>
+        <teacher>金长龙</teacher>
+    </course>
+    <course>
+        <id>29913040</id>
+        <name>美学原理</name>
+        <teacher></teacher>
+    </course>
+    <course>
+        <id>28030730</id>
+        <name>计算机图形学课程设计</name>
+        <teacher>殷建</teacher>
+    </course>
+</courses>
