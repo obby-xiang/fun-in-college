@@ -1,0 +1,131 @@
+/* html样式 */
+html {
+    width: auto;
+    height: auto;
+    font-family: SimSun, serif; /* 优先使用宋体 */
+    color: white;
+    overflow-x: hidden; /* 禁用水平滚动条 */
+}
+
+/* 标题样式 */
+#title {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 46px;
+    /* 居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 日期选择样式 */
+#week {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 22px;
+    /* 居中 */
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+/* 框架样式 */
+frame {
+    border: 1px solid darkgray; /* 框架边框 */
+}
+
+/* 日期显示样式 */
+#date {
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-size: 26px;
+}
+
+/* 课程表样式 */
+table.timetable {
+    width: auto;
+    height: auto;
+    border: 2px solid white;
+    border-spacing: 0; /* 边框间隙设为0 */
+    text-align: center; /* 文字居中 */
+    /* 居中 */
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+/* 今日课程样式 */
+table.today {
+    width: auto;
+    height: auto;
+    border: 2px solid white;
+    border-spacing: 0; /* 边框间隙设为0 */
+    text-align: center; /* 文字居中 */
+    /* 水平居中 */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 表头（中）样式 */
+td.headerM {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    /* 右边、下面无边框 */
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 表头（大）样式 */
+td.headerL {
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    /* 右边、下面无边框 */
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 表格内容（中）样式 */
+td.contentM {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    /* 右边、下面无边框 */
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 表格内容（大）样式 */
+td.contentL {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    /* 右边、下面无边框 */
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 链接样式 */
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active { /* 正常 被访问过 鼠标进入 点击 */
+    color: darkblue;
+}

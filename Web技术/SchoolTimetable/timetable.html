@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/functions.js"></script>
+    <title>课程表</title>
+</head>
+<body>
+
+<!-- 课程表分区，用于放置课程表 -->
+<div id="timetable">
+
+</div>
+
+<script type="text/javascript">
+    str = decodeURI(document.location); // 获取当前位置，需要解码，否则无法正常读取中文
+
+    /* 动态生成表格 */
+    if (str.indexOf("?day=") !== -1) { // 指定日期
+        run("timetable", str.substring(str.lastIndexOf("=") + 1, str.length));
+    }
+    else { // 未指定日期
+        run("timetable");
+    }
+
+</script>
+</body>
+</html>

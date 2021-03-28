@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/functions.js"></script>
+    <title>日期选择</title>
+</head>
+<body>
+<div id="week">
+    <!-- 日期选择，为每个链接设置统一的事件处理方法，用于更改链接样式 -->
+    <p><a id="monday" href="timetable.html?day=星期一" target="timetable" onclick="onLinkClick(id)">星期一</a></p>
+    <p><a id="tuesday" href="timetable.html?day=星期二" target="timetable" onclick="onLinkClick(id)">星期二</a></p>
+    <p><a id="wednesday" href="timetable.html?day=星期三" target="timetable" onclick="onLinkClick(id)">星期三</a></p>
+    <p><a id="thursday" href="timetable.html?day=星期四" target="timetable" onclick="onLinkClick(id)">星期四</a></p>
+    <p><a id="friday" href="timetable.html?day=星期五" target="timetable" onclick="onLinkClick(id)">星期五</a></p>
+    <p><a id="saturday" href="timetable.html?day=星期六" target="timetable" onclick="onLinkClick(id)">星期六</a></p>
+    <p><a id="sunday" href="timetable.html?day=星期日" target="timetable" onclick="onLinkClick(id)">星期日</a></p>
+    <p><a id="complete" href="timetable.html" target="timetable" onclick="onLinkClick(id)">全部</a></p>
+</div>
+<script type="text/javascript">
+    /* 初始显示全部课程表 */
+    let link = document.getElementById("complete");
+    link.style.fontSize = "26px";
+    link.style.color = "white";
+</script>
+</body>
+</html>

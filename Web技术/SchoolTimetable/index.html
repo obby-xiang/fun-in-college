@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta content="text/html" charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/functions.js"></script>
+    <title>刘翔课程表</title>
+</head>
+
+<!-- 嵌套框架 -->
+<frameset cols="80%,*">
+    <frameset rows="96px,*">
+        <frame name="title" src="title.html" scrolling="no" frameborder="0"> <!-- 标题 -->
+        <frameset cols="20%,*">
+            <frame name="week" src="week.html" scrolling="auto" frameborder="0"> <!-- 日期选择-->
+            <frame name="timetable" src="timetable.html" scrolling="auto" frameborder="0"> <!-- 课程表 -->
+        </frameset>
+    </frameset>
+    <frame name="today" src="today.html" scrolling="auto" frameborder="0"> <!-- 今日课程 -->
+</frameset>
+
+</html>
